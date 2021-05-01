@@ -7,6 +7,7 @@ setup(name='w-forecast',
       url='https://github.com/RishiKr3101/weather-forecast.git',
       author='Rishi',
       author_email='rishikrofficial@gmail.com',
+      license="MIT",
       packages=['w-forecast'],
       install_requires=[
           'geopy',
