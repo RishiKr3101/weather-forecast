@@ -1,6 +1,6 @@
 from setuptools import setup
 
-setup(name='w_forecast',
+setup(name='weatherfrcst',
       version='0.0.1',
       description='Location based weather forecast package',
       long_description= 'The pip package provides weather forecasting information based on location or address. Using address, the w-forecast provides location specific forecast. Currently only one function is included i.e forecast.',
@@ -8,7 +8,7 @@ setup(name='w_forecast',
       author='Rishi',
       author_email='rishikrofficial@gmail.com',
       license="MIT",
-      packages=['w_forecast'],
+      packages=['weatherfrcst'],
       install_requires=[
           'geopy',
       ],
