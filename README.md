@@ -14,21 +14,11 @@ pip install weather_forecast
 ### Code Usage :video_game:
 ```
 import weather_forecast as wf
-wf.forecast(place = "Bangalore" , time="23:15:00" , date="2019-09-12" , forecast)
+d = wf.forecast(place = "Bangalore" , time="23:15:00" , date="2019-09-12" , forecast)
 ```
 
 
 
-### Command Line usage :space_invader:
-
-- Navigate to **./weather_forecast/** and then execute the below command.
 
 
-
-```
-python forecast.py -p Bangalore
-```
-
-```
-python forecast.py -p Bangalore -d 2019-09-12
 ```
