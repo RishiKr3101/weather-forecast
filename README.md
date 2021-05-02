@@ -22,4 +22,3 @@ print(d) // d is a dictionary
 
 
 
-```
