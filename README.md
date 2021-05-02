@@ -1,20 +1,21 @@
-# :cloud: :snowflake: weather_forecast :open_umbrella: :satellite:
+#  weatherfrcst 
 
 
 
-The pip package provides weather forecasting information based on location or address. Using address, the weather_forecast provides location specific forecast. Currently only one function is included i.e forecast. 
+The pip package provides weather forecasting information based on location or address. Using address, the weather_forecast provides location specific forecast. Currently only one function is included i.e forecast which returns a dictionary.
 
 
 
 ### Install :computer:
 ```
-pip install w_forecast
+pip install weatherfrcst==0.0.1
 ```
 
 ### Code Usage :video_game:
 ```
-import w_forecast as wf
-d = wf.forecast(place = "Bangalore" , time="23:15:00" , date="2019-09-12" , forecast)
+import weatherfrcst as wf
+d = wf.forecast(place = "<place>" , time= None , date=None , forecast)
+print(d) // d is a dictionary
 ```
 
 
